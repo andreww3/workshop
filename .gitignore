@@ -1,2 +1,7 @@
 # ignore all logs
 *.log
+.Rproj.user
+.Rhistory
+.RData
+.DS_Store
+.workbch

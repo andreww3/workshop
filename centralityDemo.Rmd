@@ -82,7 +82,7 @@ vlabels = igraph::V(G.usf)$name
 In this case, there's one large component, and 52 components that correspond to the isolated vertices identified above. The number of nodes after extracting the largest connected components is `r igraph::vcount(G.usf)`. 
 
 # Local centrality measures
-Local centrality measures considers how a node is connected with its direct neighbors. This includes measures such as the number of incoming edges (`in-degree` $k_{in}$), the number of outgoing edges (`out-degree` $k_{out}) and weighted versions of these measures (*strength*).
+Local centrality measures considers how a node is connected with its direct neighbors. This includes measures such as the number of incoming edges (`in-degree` $k_{in}$), the number of outgoing edges (`out-degree` $k_{out}$) and weighted versions of these measures (*strength*).
 
 ```{r centralityTable, warning=FALSE}
 ct_k = tibble(names  = vlabels,

@@ -1,5 +1,0 @@
-"0","networkStats  = getNetworkStats(G.usf)
-"
-"2","Error in getNetworkStats(G.usf) : 
-  could not find function ""getNetworkStats""
-"
